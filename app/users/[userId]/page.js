@@ -19,7 +19,7 @@ export default async function Userdata({params:{userId}}) {
     <div className='flex justify-center items-center h-screen flex-col'>
         <h1 className='text-3xl font-semibold'>Details of {users.name}</h1>
         <Card style={{
-            width:700,
+            width:730,
             height:"auto",
             display:"flex"
         }}>
